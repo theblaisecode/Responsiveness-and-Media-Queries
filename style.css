@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #FF7978;
+    color: #fff;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.box {
+    padding: 1em;
+    flex: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.content h2 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 15px;
+    color: #f1f1f1;
+    font-weight: 500;
+}
+
+.signup .btn {
+    text-align: center;
+    display: block;
+    color: #fff;
+    background: #5D54A3;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.signup .btn .bold {
+    font-weight: 500;
+}
+
+.signup .form-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.signup .form-box .form-group {
+    margin-bottom: 15px;
+}
+
+.signup .form-box .form-group input {
+    display: block;
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.signup .form-box .form-group input::placeholder {
+    color: rgb(105, 105, 105);
+    font-weight: 600;
+}
+
+.signup .form-box .form-group input:focus {
+    outline: none;
+    border: 1px solid rgb(116, 115, 115);
+}
+
+.signup .form-box p {
+    text-align: center;
+    color: rgb(172, 172, 172);
+    font-size: 10px;
+}
+
+.signup .form-box .text-pry {
+    color: #FF7978;
+    font-weight: bold;
+}
+
+.signup .form-box .btn {
+    background: #37CC8A;
+    color: #fff;
+    font-weight: 500;
+}
