@@ -97,3 +97,92 @@ a {
     color: #fff;
     font-weight: 500;
 }
+
+/* Media Queries */
+/* Smart Phones */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+
+    #flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .content h2 {
+        font-size: 30px;
+    }
+    
+    .content p {
+        line-height: 1.7em;
+    }
+
+    .signup .form-box {
+        padding: 1.2em;
+    }
+}
+
+/* Tablets */
+@media (min-width: 501px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    #flex {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .content {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .content h2 {
+        font-size: 30px;
+    }
+    
+    .content p {
+        line-height: 1.7em;
+    }
+
+    .signup .form-box {
+        padding: 1.2em;
+    }
+}
+
+@media (min-height: 500px) {
+    .container {
+        width: 90%;
+    }
+
+    #flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .content h2 {
+        font-size: 30px;
+    }
+    
+    .content p {
+        line-height: 1.7em;
+    }
+
+    .signup .form-box {
+        padding: 1.2em;
+    }
+}
