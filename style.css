@@ -158,7 +158,8 @@ a {
     }
 }
 
-@media (min-height: 500px) {
+/* landscape */
+@media (max-height: 500px) {
     .container {
         width: 90%;
     }
