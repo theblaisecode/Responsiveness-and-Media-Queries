@@ -7,10 +7,10 @@ A single-page responsive registration form
 
 ## Tech Stack
 
-**Client:** HTML, CSS
+HTML, CSS
 
 
 ## Authors
 
-- [@karasheeeka](https://www.github.com/karasheeeka)
+- [@theblaisecode](https://www.github.com/theblaisecode)
 
